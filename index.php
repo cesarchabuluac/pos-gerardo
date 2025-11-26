@@ -303,7 +303,7 @@ if ($request->server['REQUEST_METHOD'] == 'POST' && $request->get['action_type']
             <div class="input-group-addon input-sm">
               <svg class="svg-icon"><use href="#icon-avatar"></svg>
             </div>
-            <input type="text" class="form-control" value="admin@admin.com" placeholder="<?=trans('placeholder_input_user')?>" name="username">
+            <input type="text" class="form-control" placeholder="<?=trans('placeholder_input_user')?>" name="username">
           </div>
         </div>
 
@@ -312,7 +312,7 @@ if ($request->server['REQUEST_METHOD'] == 'POST' && $request->get['action_type']
             <div class="input-group-addon input-sm">
               <svg class="svg-icon"><use href="#icon-password"></svg>
             </div>
-            <input type="password" class="form-control" value="1234567890" placeholder="<?=trans('placeholder_input_password')?>" name="password">
+            <input type="password" class="form-control" placeholder="<?=trans('placeholder_input_password')?>" name="password">
           </div>
         </div>
 
