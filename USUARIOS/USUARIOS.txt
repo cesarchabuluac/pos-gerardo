@@ -2,3 +2,22 @@ Role 	Username 	Password
 Admin 	tusolutionweb@gmail.com 	tusolutionweb
 Cashier 	cashier@gmail.com 	tusolutionweb
 Salesman 	salesman@gmail.com 	tusolutionweb
+
+/****************DEPLOY MATRID*****************/
+=======================================
+ DEPLOY COMPLETADO PARA madrid
+ URL: https://madrid.dicrotictech.com
+ BD: madrid_db
+ USER: madrid_user
+ PASS: XiGf8+1EPhZ/LNX/
+=======================================
+
+=======================================
+ DEPLOY COMPLETADO PARA madrid
+ URL: https://madrid.dicrotictech.com
+ BD: madrid_db
+ USER: madrid_user
+ PASS: k1AE3iwlf0cllMrL
+=======================================
+root@ubuntu-s-1vcpu-1gb-sfo2-01:/usr/local/bin#
+

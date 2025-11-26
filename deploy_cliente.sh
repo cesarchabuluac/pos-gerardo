@@ -12,7 +12,8 @@ TEMPLATE="/var/www/template"
 
 DB_NAME="${CLIENTE}_db"
 DB_USER="${CLIENTE}_user"
-DB_PASS=$(openssl rand -base64 12)
+# DB_PASS=$(openssl rand -base64 12)
+DB_PASS=$(tr -dc A-Za-z0-9 < /dev/urandom | head -c 16)
 
 PHP_FPM_SOCK="/var/run/php/php7.4-fpm.sock"
 
